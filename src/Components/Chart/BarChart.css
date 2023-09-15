@@ -1,0 +1,35 @@
+.chart-container {
+  width: 60%;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 60%;
+  font-weight: bold;
+}
+
+.button-container button,.link-button {
+  background-color: rgb(194, 194, 194);
+  /* background-color: rgb(126, 81, 81); */
+  padding: 0.3rem 1.5rem;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  transition: 0.5s all;
+  font-weight: bold;
+  color: black;
+  transition: 0.6s all;
+}
+.button-container button:hover,.link-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+  color:white;
+}
+.link-button{
+  font-size: 12px;
+text-decoration: none;
+}
